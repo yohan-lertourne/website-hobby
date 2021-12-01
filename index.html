@@ -1,0 +1,81 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" />
+		<script>
+			function Sombre() {
+				if (document.getElementById("cursor").style.background = "white")  {
+ 			 document.getElementById("cursor").style.background = "#353836";
+				}
+			   else {
+				document.getElementById("cursor").style.background = "white";
+			}
+		}
+		</script>
+		<title>Site Passion</title>
+	</head>
+	<body id="cursor">
+		<div class="parallax"></div>
+		<div>
+			<h1>Super Smash Bros</h1>
+		</div>
+		<button type="button" onclick="Sombre()">
+   			Sombre
+		</button>
+		<nav>
+			<ul id="nav1">
+				<li> <a href="index.html">Page d'accueil</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<br>
+		<div>
+			<p>Ce site est créé pour parler de ma passion: le jeu <a href="https://www.smashbros.com/fr_FR/" rel="nofollow">Super Smash Bros</a></p>
+			<p id="img1"><img src="smash.jpg" alt="Image des personnages du jeu Super Smash Bros" style="width: 400px; height: 200px;"></p>
+		</div>
+		<br>
+		<div>
+			<p>Super Smash Bros Ultimate est un jeu de combat. Les joueurs se battent sur des plateformes, ce qui diffère ce jeu aux jeux de combats classiques.</p>
+			<p>Il est apprécié aussi bien comme un jeu occasionnel qu'en compétition.</p>
+		</div>
+		<br>
+		<div id="carrousel">
+			<figure>
+				<img src="mariosmash.jpg" alt="image de mario"> 
+				<img src="linksmash.jpg" alt="image de link">
+				<img src="lucinasmash.jpg" alt="image de lucina">
+				<img src="mewtwosmash.jpg" alt="image de mewtwo">
+				<img src="mariosmash.jpg" alt="image de mario">
+			</figure>
+		</div>
+		<br>
+		<div>
+			<p>De nombreuses associations organisent des tournois de ce jeu de combat, par exemple <a href="http://blastzone.fr/" rel="nofollow">Blastzone</a></p>
+			<p id="img2"><img src="blastzone.jpg" alt="Logo de l'association Blastzone" style="width: 400px; height: 400px;"> </p>
+			<p>Il y a aussi d'autres associations telle que:</p>
+			<ul>
+				<li><a href="https://twitter.com/WantedSSB" rel="nofollow">Wanted</a></li>
+				<li><a href="https://twitter.com/Salty_Arena" rel="nofollow">Salty Arena</a></li>
+				<li><a href="https://twitter.com/TeamVegacy" rel="nofollow">Vegacy</a></li>
+			</ul>
+		</div>
+		<br>
+		<div>
+			<p>Si vous voulez plus d'informations, je vous informerai. Pour ceci, veuillez entrer vos coordonnées dans ce formulaire.</p>
+			<br>
+			<form>
+				<label for="prénom">Prénom:</label>
+				<input type="text" id="prénom" name="prénom"><br>
+				<label for="nom">Nom:</label>
+				<input type="text" id="nom" name="nom"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<input type="submit" value="Envoyer">
+			</form>
+		</div>
+		<br>
+	</body>
+	</html>

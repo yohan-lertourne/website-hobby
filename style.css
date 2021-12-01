@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgba(122, 118, 118, 0.781);
+}
+
+#img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#img2 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+    color: rgba(122, 118, 118, 0.781);
+    height: 100%;
+}
+
+#nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#contact1 {
+    display: flex;
+    justify-content:center;
+}
+
+#mail1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.parallax {
+    background-image: url("logo.jpg");
+    margin: 0;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+  }
+
+#cursor{
+    cursor: url('mario.png'), default;
+  }
+
+div {
+    margin-left: 25px;
+}
+
+div#carrousel {
+    width: 80%;
+    max-width: 700px;
+    overflow:hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div#carrousel figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    animation: 20s manège infinite;
+}
+
+div#carrousel figure img {
+    width: 20%;
+    height: auto;
+}
+
+@keyframes manège {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
