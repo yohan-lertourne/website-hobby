@@ -7,13 +7,9 @@
 		<link rel="stylesheet" href="style.css" />
 		<script>
 			function Sombre() {
-				if (document.getElementById("cursor").style.background = "white")  {
- 			 document.getElementById("cursor").style.background = "#353836";
-				}
-			   else {
-				document.getElementById("cursor").style.background = "white";
-			}
-		}
+				var sombre = document.getElementById("cursor");
+				sombre.classList.toggle("sombre");
+			}		
 		</script>
 		<title>Site Passion</title>
 	</head>

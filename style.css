@@ -103,3 +103,7 @@ div#carrousel figure img {
     95% { left: -300%; }
     100% { left: -400%; }
   }
+
+  .sombre{
+      background-color: darkgray;
+  }
