@@ -1,8 +1,0 @@
-site sur notre passion
-2 images minimum (alt sur les images)
-sémantique (bonnes balises pour le seo)
-liens vers une autre page
-menu 
-listes
-w3c
-flexbox
